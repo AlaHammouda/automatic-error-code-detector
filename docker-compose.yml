@@ -1,0 +1,10 @@
+version: "3.7"
+
+services:
+  error-detection-service:
+    image: errorr-detection:latest
+    container_name: error-detection
+    network_mode: host
+    environment:
+      - ROS_DISTRO=melodic
+    tty: true
