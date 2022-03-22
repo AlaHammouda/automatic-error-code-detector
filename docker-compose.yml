@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   error-detection-service:
-    image: errorr-detection:latest
+    image: error-detection:latest
     container_name: error-detection
     network_mode: host
     environment:
