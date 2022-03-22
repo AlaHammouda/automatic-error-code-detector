@@ -1,0 +1,3 @@
+<launch>
+  <node name="error_detection" pkg="error_detection" type="error_detection" output="screen" />
+</launch>
